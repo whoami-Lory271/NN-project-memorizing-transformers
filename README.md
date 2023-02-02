@@ -11,7 +11,7 @@ We propose two different pipelines
 
 * The second one use the **Bert** model as embedding layer, then we pass its output to a **Memorizing Transformer** with 4 layers of **Transformer Block** one of which (the $2^{nd}$) is a **Memorizing Block**
 
-##How to run the code
+## How to run the code
 In order to run the notebook you can simply connect the Colab to a GPU runtime and run all!  
 You need to modify some part of the code if you want to run using the first or second pipeline
 * In the first case you need to decomment the section with title *Decomment if you wont tu use the first method* and set in the *Training* section the `USE_BERT` variable to `False`
