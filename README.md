@@ -3,7 +3,6 @@
 * Luigi Antonelli 1851425
 * Lorenzo De Santis 1849114
 
-## Brief introduction
 Memorizing transformers are decoder-only transformers which have the ability to store in a non-differentiable memory the internal representations of past inputs, allowing to combine local attention with a $k$-nearest neighbors search into the memory. In particular, the architecture of these models uses standard transformer blocks and a special transformer block that uses this modified version of the attention, taking also into consideration information from previous training steps.
 
 We are proposing two different approaches:
