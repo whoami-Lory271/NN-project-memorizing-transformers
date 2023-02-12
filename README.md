@@ -1,6 +1,6 @@
 # Memorizing Transformers (https://arxiv.org/pdf/2203.08913.pdf)
 **Authors**
-* Luigi Antonelli 
+* Luigi Antonelli 1851425
 * Lorenzo De Santis 1849114
 
 ## Brief introduction
