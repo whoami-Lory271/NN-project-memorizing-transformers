@@ -1,4 +1,4 @@
-# Re-implementation of [Memorizing Transformers](https://openreview.net/pdf?id=TrjbxzRcnf-)
+# Memorizing Transformers (https://arxiv.org/pdf/2203.08913.pdf)
 **Authors**
 * Luigi Antonelli 
 * Lorenzo De Santis 1849114
