@@ -11,6 +11,8 @@ We are proposing two different approaches:
 
 * The second one uses the **Bert** model as embedding layer, followed by a **Memorizing Transformer** with 4 layers of **Transformer Block** where the $3^{th}$ one is a **Memory Block**.
 
+Finally, we are reporting a comparison between a memorizing transformer and a decoder-only transformer that both use Bert as embedding layer. The task on which the two models were trained on is language modelling so the evaluation metric is the perplexity (https://torchmetrics.readthedocs.io/en/stable/text/perplexity.html?highlight=perplexity).
+
 ## How to run the code
 In order to run the notebook you can simply connect the Colab notebook to a runtime and execute its cells.  
 You need to modify some parts of the code if you want to run using the first or second pipeline:
