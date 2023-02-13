@@ -13,8 +13,10 @@ We are proposing two different approaches:
 Finally, we are reporting a comparison between a memorizing transformer and a decoder-only transformer that both use Bert as embedding layer. The task on which the two models were trained on is language modelling so the evaluation metric is the perplexity (https://torchmetrics.readthedocs.io/en/stable/text/perplexity.html?highlight=perplexity).
 
 ## How to run the code
-In order to run the notebook you can simply connect the Colab notebook to a runtime and execute its cells.  
+In order to run the notebook you can simply connect the Colab notebook to a runtime and execute its cells :)  
 You need to modify some parts of the code if you want to run using the first or second pipeline:
 * In the first case you need to decomment the section with title *Decomment if you want to use the first method* and set in the *Training* section the `USE_BERT` variable to `False`
 
 * In the Second case you need to decomment the section with title *Decomment if you want to use the second method* and set in the *Training* section the `USE_BERT` variable to `True`
+
+If you want to load our models (either `TransformerDecoder`or `MemorizingTransformer`) trained using the *first method*, you can set in the *Training* section the `LOAD_MODEL` variable to `True`
