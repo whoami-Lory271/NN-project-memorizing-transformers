@@ -6,7 +6,7 @@
 Memorizing transformers (https://arxiv.org/pdf/2203.08913.pdf) are decoder-only transformers which have the ability to store in a non-differentiable memory the internal representations of past inputs, allowing to combine local attention with a $k$-nearest neighbors search into the memory. In particular, the architecture of these models uses standard transformer blocks and a special transformer block that uses this modified version of the attention, taking also into consideration information from previous training steps.
 
 We are proposing two different approaches:
-* The first one uses only our **Memorizing Transformer** model with 12 layers of **Transformer Block** where the $9^{th}$ one is a **Memory Block**
+* The first one uses only our **Memorizing Transformer** model with 12 layers of **Transformer Block** where the $9^{th}$ one is a **Memory Block** (like the authors of the paper suggest)
 
 * The second one uses the **Bert** model as embedding layer, followed by a **Memorizing Transformer** with 4 layers of **Transformer Block** where the $3^{th}$ one is a **Memory Block**.
 
