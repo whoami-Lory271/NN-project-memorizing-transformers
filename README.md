@@ -19,4 +19,4 @@ You need to modify some parts of the code if you want to run using the first or 
 
 * In the Second case you need to decomment the section with title *Decomment if you want to use the second method* and set in the *Training* section the `USE_BERT` variable to `True`
 
-If you want to load our models (either `TransformerDecoder`or `MemorizingTransformer`) trained using the *first method*, you can set in the *Training* section the `LOAD_MODEL` variable to `True`
+If you want to load our models (either `TransformerDecoder`or `MemorizingTransformer`) trained using the *first method*, you can set in the *Training* section the `LOAD_MODEL` variable to `True`.
